@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DungeonMaker.h
+
+/Users/andy/Documents/Test/Rogue/src/DungeonMaker.cc
+DungeonMaker.h
+/Users/andy/Documents/Test/Rogue/src/DungeonMaker.h
+

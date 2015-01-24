@@ -1,0 +1,75 @@
+SCREEN SIZE 80 x 27
+
+States : 
+	TitleScreen
+	MainMenu
+	Play
+	InGameMenus
+
+	TitleScreen -> MainMenu <-> Play <-> InGameMenus	-|
+																									 <-|
+
+objects have world X,Y
+
+GameObject {
+	unsigned 	character;
+	Point 		position;
+	
+	void		draw	();
+	void		update	();
+}
+
+GameObject::draw() {
+	mvaddch( position.y, position.x, character );
+}
+GameObject::update() {
+
+	// AI here (for non-players)
+
+	//update logic
+
+}
+
+Camera:
+	int screenX, screenY
+	screenX = object.x - camera.x;
+	screenY = object.y - camera.y;
+
+
+
+
+struct Vec2i x,y
+
+Rect x,y,w,h
+{
+	Vec2i getCenter()
+}
+
+rectCheckMethod(Rect r1, Rect r2){
+
+	center 1
+	center 2 
+	
+	Vec2i dir;
+
+	if center1.x < center2.x:	dir.x = -1
+	elif center 1.x > center2.x:	dir.x = 1
+	elif center 1.x = center2.x:	dir.x = 0
+	else -- error
+
+	if center1.y < center2.y:	dir.y = -1
+	elif center1.y > center2.y:	dir.y = 1
+	elif center2.y = center2.y:	dir.y = 0
+	else -- error
+
+	
+
+}
+
+point in room 1
+point in room 2
+
+random point between
+
+connect 3 things with #
+

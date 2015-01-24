@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CPPFLAGS	Makefile	/^CPPFLAGS = -I\/usr\/local\/opt\/ncurses\/include$/;"	m
+CPPFLAGS	test/Makefile	/^CPPFLAGS = -I\/usr\/local\/opt\/ncurses\/include$/;"	m
+DungeonMaker	include/DungeonMaker.h	/^class DungeonMaker {$/;"	c
+EXEC	Makefile	/^EXEC = Rogue$/;"	m
+EXEC	test/Makefile	/^EXEC = Test$/;"	m
+Entity	include/Entity.h	/^class Entity {$/;"	c
+GameEngine	include/GameEngine.h	/^class GameEngine {$/;"	c
+GameEngine	src/GameEngine.cc	/^GameEngine::GameEngine() : running(true) {$/;"	f	class:GameEngine
+LDFLAGS	Makefile	/^LDFLAGS = -L\/usr\/local\/opt\/ncurses\/lib$/;"	m
+LDFLAGS	test/Makefile	/^LDFLAGS = -L\/usr\/local\/opt\/ncurses\/lib$/;"	m
+LINKER	Makefile	/^LINKER =  -lncurses$/;"	m
+LINKER	test/Makefile	/^LINKER =  -lncurses$/;"	m
+MAX_HEIGHT	include/DungeonMaker.h	/^	const int MAX_HEIGHT;$/;"	m	class:DungeonMaker
+MAX_WIDTH	include/DungeonMaker.h	/^	const int MAX_WIDTH;$/;"	m	class:DungeonMaker
+PRINT_NAME	test/test_characters.cc	/^#define PRINT_NAME(/;"	d	file:
+PlayState	include/PlayState.h	/^class PlayState : public State {$/;"	c
+Player	include/Player.h	/^class Player : public Entity { \/\/ : public Entity$/;"	c
+Point	include/Point.h	/^class Point {$/;"	c
+Point	src/Point.cc	/^Point::Point() : x(0), y(0) {$/;"	f	class:Point
+Point	src/Point.cc	/^Point::Point(int x_, int y_) : x(x_), y(y_) {$/;"	f	class:Point
+ROGUE_DUNGEONMAKER_H	include/DungeonMaker.h	/^#define ROGUE_DUNGEONMAKER_H$/;"	d
+ROGUE_ENTITY_H	include/Entity.h	/^#define ROGUE_ENTITY_H$/;"	d
+ROGUE_GAMEENGINE_H	include/GameEngine.h	/^#define ROGUE_GAMEENGINE_H$/;"	d
+ROGUE_PLAYER_H	include/Player.h	/^#define ROGUE_PLAYER_H$/;"	d
+ROGUE_PLAYSTATE_H	include/PlayState.h	/^#define ROGUE_PLAYSTATE_H$/;"	d
+ROGUE_POINT_H	include/Point.h	/^#define ROGUE_POINT_H$/;"	d
+ROGUE_STATE_H	include/State.h	/^#define ROGUE_STATE_H$/;"	d
+SOURCE	Makefile	/^SOURCE = main.cc GameEngine.cc Point.cc Entity.cc Player.cc State.cc PlayState.cc$/;"	m
+SOURCE	test/Makefile	/^SOURCE = test_windows.cc$/;"	m
+State	include/State.h	/^class State {$/;"	c
+character	include/Entity.h	/^	unsigned	character;$/;"	m	class:Entity
+color	include/Entity.h	/^	int		color;$/;"	m	class:Entity
+create_newwin	src/window.cc	/^WINDOW *create_newwin(int height, int width, int starty, int startx)$/;"	f
+deltaPos	include/Entity.h	/^	Point		deltaPos;$/;"	m	class:Entity
+destroy_win	src/window.cc	/^void destroy_win(WINDOW *local_win)$/;"	f
+draw	src/Entity.cc	/^void Entity::draw() {$/;"	f	class:Entity
+draw	src/PlayState.cc	/^void PlayState::draw() {$/;"	f	class:PlayState
+drawBox	src/main.cc	/^void drawBox(int x, int y, int w, int h) {$/;"	f
+drawHashLine	src/main.cc	/^void drawHashLine(int x1, int y1, int x2, int y2) {$/;"	f
+dungeon	include/DungeonMaker.h	/^	int dungeon[10][10];$/;"	m	class:DungeonMaker
+floor	src/main.cc	/^std::vector<unsigned> floor; \/\/ <chtype> : the "type" defined in ncurses$/;"	v
+handleInput	src/PlayState.cc	/^void PlayState::handleInput(int input) {$/;"	f	class:PlayState
+handleInput	src/Player.cc	/^void Player::handleInput(int input) {$/;"	f	class:Player
+init	src/GameEngine.cc	/^bool GameEngine::init() {$/;"	f	class:GameEngine
+initArray	src/DungeonMaker.cc	/^void DungeonMaker::initArray() {$/;"	f	class:DungeonMaker
+initColors	src/GameEngine.cc	/^bool GameEngine::initColors() {$/;"	f	class:GameEngine
+main	src/main.cc	/^int main() {$/;"	f
+main	src/window.cc	/^int main(int argc, char *argv[])$/;"	f
+main	test/test_characters.cc	/^int main() {$/;"	f
+main	test/test_windows.cc	/^int main() {$/;"	f
+operator !=	src/Point.cc	/^bool Point::operator!=(const Point& other) const {$/;"	f	class:Point
+operator +	src/Point.cc	/^Point Point::operator+(const Point& p) {$/;"	f	class:Point
+operator ==	src/Point.cc	/^bool Point::operator==(const Point& other) const {$/;"	f	class:Point
+position	include/Entity.h	/^	Point		position;$/;"	m	class:Entity
+reportError	src/GameEngine.cc	/^void GameEngine::reportError(const char * errorMessage) {$/;"	f	class:GameEngine
+run	src/GameEngine.cc	/^void GameEngine::run() {$/;"	f	class:GameEngine
+running	include/GameEngine.h	/^	bool running;$/;"	m	class:GameEngine
+states	include/GameEngine.h	/^	std::vector<State*> states;$/;"	m	class:GameEngine
+update	src/Entity.cc	/^void Entity::update() {$/;"	f	class:Entity
+update	src/PlayState.cc	/^void PlayState::update() {$/;"	f	class:PlayState
+x	include/Point.h	/^	int x;$/;"	m	class:Point
+y	include/Point.h	/^	int y;$/;"	m	class:Point
+~GameEngine	src/GameEngine.cc	/^GameEngine::~GameEngine() {$/;"	f	class:GameEngine
+~PlayState	src/PlayState.cc	/^PlayState::~PlayState() {$/;"	f	class:PlayState
+~State	src/State.cc	/^State::~State() {$/;"	f	class:State
