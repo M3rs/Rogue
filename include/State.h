@@ -3,6 +3,8 @@
 
 #include "ncurses.h"
 
+#include "Message.h"
+
 class State {
 
  public:
@@ -11,6 +13,8 @@ class State {
 	virtual void draw() =0;
 	virtual void handleInput(int input) =0;
 	virtual void update() =0;
+
+	Message message;
 
 };
 
