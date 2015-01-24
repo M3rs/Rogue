@@ -1,6 +1,8 @@
 #ifndef ROGUE_STATE_H
 #define ROGUE_STATE_H
 
+#include "ncurses.h"
+
 class State {
 
  public:

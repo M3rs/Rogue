@@ -32,9 +32,9 @@ class GameEngine {
 	void reportError(const char * errorMessage);
 	bool initColors();
 
-	//void draw();
-	//void handleInput();
-	//void update();
+	void draw();
+	void handleInput();
+	void update();
 
 };
 

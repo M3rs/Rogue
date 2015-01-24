@@ -1,5 +1,6 @@
 #include "GameEngine.h"
 
+#include "TitleState.h"
 #include "PlayState.h"
 
 GameEngine::GameEngine() : running(true) {
@@ -63,21 +64,25 @@ bool GameEngine::initColors() {
 
 void GameEngine::run() {
 
-	PlayState *  play = new PlayState();
+	states.push_back(new TitleState());
 
-	delete play;
-
+	// player info
 	Player player = Player();
 	player.character = '@';
 	player.color = 1;
 	player.position = Point(10,10);
-	int input = 0;
+	
+	//int input = 0;
 
-	int x = 10;
-	int y = 10;
+	//int x = 10;
+	//int y = 10;
 
 	while(running) {
 
+		draw();
+		handleInput();
+		update();
+		/*
 		// drawing code
 		clear();
 
@@ -103,8 +108,36 @@ void GameEngine::run() {
         
     // update 
 		player.update();
+		*/
 
     }
+
+}
+
+void GameEngine::draw() {
+
+	states.back()->draw();
+
+}
+
+void GameEngine::handleInput() {
+
+	int input = getch();
+
+	switch( input ) {
+	case 'q':
+		running = false;
+		break;
+	}
+	
+	states.back()->handleInput(input);
+
+
+}
+
+void GameEngine::update() {
+
+	states.back()->update();
 
 }
 
