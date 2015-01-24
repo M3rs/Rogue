@@ -8,7 +8,7 @@ A Roguelike game written in C++ using the ncurses library.
 
 Author
 ------
-Andy Moran
+Andy Moran (morandyj@gmail.com)
 
 ChangeLog
 ---------

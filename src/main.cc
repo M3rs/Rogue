@@ -22,6 +22,10 @@ int main() {
 
 	return 0; // early return
 
+	// TODO: Clean up this (delete), after moving relevant code
+	// to places it needs to go. Mostly concerned about the
+	// special characters from ncurses ( ACS_* )
+
 	/*
 	initscr(); // do this before ACS_ULCORNER, etc
 	start_color(); // they are macros ? not CONST or whatever ??
