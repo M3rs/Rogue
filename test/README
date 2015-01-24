@@ -1,0 +1,6 @@
+test
+----
+
+This director contains tests for different things. So far there are no "unit tests" - this is more like a brain/think pad area for writing/testing code, but keeping it separate from the actually game src. 
+
+

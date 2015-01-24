@@ -1,3 +1,4 @@
+# Makefile used in order to build tests
 LDFLAGS = -L/usr/local/opt/ncurses/lib
 CPPFLAGS = -I/usr/local/opt/ncurses/include
 LINKER =  -lncurses
