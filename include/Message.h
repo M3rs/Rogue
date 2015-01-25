@@ -1,6 +1,10 @@
 #ifndef ROGUE_MESSAGE_H
 #define ROGUE_MESSAGE_H
 
+// foward declaration
+class State;
+
+
 class Message {
 
  public:
@@ -10,6 +14,8 @@ class Message {
 	enum MessageType { NONE, QUIT, NEXT };
 
 	MessageType messageType;
+
+	State* nextState;
 
 };
 

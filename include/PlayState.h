@@ -9,6 +9,7 @@ class PlayState : public State {
 
 	~PlayState();
 
+	bool init();
 	void draw();
 	void handleInput(int input);
 	void update();

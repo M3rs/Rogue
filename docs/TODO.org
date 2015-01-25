@@ -1,6 +1,18 @@
 Things needing done
 
+* ERRORS
+	run make in build/ -- double check errors with all the enum crap
+
 * TODO Messaging System
+  Notes on Messagine:
+
+-Have Message contain State*
+-When messageState == MessageState::NEXT, start next state
+-Add to State.h
+#+BEGIN_SRC C++
+bool init() { // code }
+#+END_SRC
+
 ** TODO State.h
 - create struct Message
 - add to class State { Message message }

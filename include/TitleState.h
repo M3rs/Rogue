@@ -8,6 +8,8 @@ class TitleState : public State {
  public:
 
 	~TitleState();
+
+	bool init();
 	void draw();
 	void handleInput(int input);
 	void update();

@@ -139,5 +139,27 @@ void GameEngine::update() {
 
 	states.back()->update();
 
+	switch( states.back()->message.messageType ) {
+	case Message::NONE:
+		// no message
+		break;
+	case Message::QUIT:
+		running = false;
+		break;
+	case Message::NEXT:
+		// push_back the state created (Message has State*, read from that)
+		if( states.back()->message.nextState ) {
+			// next state is valid, go to next state
+			states.push_back( states.back()->message.nextState );
+
+		} else {
+			// nextState is NULL
+			running = false;
+
+		}
+
+		break;
+	}
+
 }
 

@@ -2,7 +2,7 @@
 LDFLAGS = -L/usr/local/opt/ncurses/lib
 CPPFLAGS = -I/usr/local/opt/ncurses/include
 LINKER =  -lncurses
-SOURCE = test_windows.cc
+SOURCE = test_keypresses.cc
 EXEC = Test
 
 all:
