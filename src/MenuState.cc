@@ -1,5 +1,8 @@
 #include "MenuState.h"
 
+#include "HelpState.h"
+#include "PlayState.h"
+
 MenuState::~MenuState() {
 
 }
@@ -40,6 +43,12 @@ void MenuState::handleInput(int input) {
 		switch( input ) {
 		case 'e':
 			// go to play state
+			message.messageType = Message::NEXT;
+			stateType = StateType::PLAY;
+			break;
+		case 'h':
+			message.messageType = Message::NEXT;
+			stateType = StateType::HELP;
 			break;
 		case 'q':
 			// quit
@@ -62,6 +71,23 @@ void MenuState::update() {
 		break;
 	case Message::NEXT:
 		// set up next state depending on message?
+		State* next = NULL;
+		switch ( stateType ) {
+		case StateType::HELP:
+			next = new HelpState();
+			break;
+		case StateType::PLAY:
+			next = new PlayState();
+			break;
+		}
+
+		if(next->init()) {
+			message.nextState = next;
+		} else {
+			delete next;
+			message.messageType = Message::QUIT;
+		}
+
 		break;
 
 	}

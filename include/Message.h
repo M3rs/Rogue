@@ -11,7 +11,7 @@ class Message {
 
 	Message();
 
-	enum MessageType { NONE, QUIT, NEXT };
+	enum MessageType { NONE, QUIT, NEXT, BACK };
 
 	MessageType messageType;
 

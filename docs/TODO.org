@@ -4,11 +4,34 @@ Things needing done. Builds usually pushed after TODO items are done.
 ** TODO HelpState
 *** TODO HelpState.cc
 - Fill out methods
-- Possible create help docs, read from those for HelpState
+**** TODO Possible create help docs, read from those for HelpState    :LATER:
+- Help docs?
+- Read docs?
+*** DONE Way back to previous state
+    CLOSED: [2015-01-25 Sun 19:24]
+    - CLOSING NOTE [2015-01-25 Sun 19:24] \\
+      Basic implementation of this added
+**** DONE MessageType
+     CLOSED: [2015-01-25 Sun 19:22]
+     - CLOSING NOTE [2015-01-25 Sun 19:22] \\
+       Added
+- Add "BACK" (go back to last state)
+**** DONE GameEngine
+     CLOSED: [2015-01-25 Sun 19:24]
+     - CLOSING NOTE [2015-01-25 Sun 19:24] \\
+       case Message::BACK added,
+       deletes states.back(),
+       states.pop_back() to remove
+- Handle "BACK" message
 ** TODO ASCII Art to TitleState.cc
 - For "Rogue" (maybe a sword, or castle, etc?)
-** TODO MenuState
+** DONE MenuState
+   CLOSED: [2015-01-25 Sun 19:18]
+   - CLOSING NOTE [2015-01-25 Sun 19:18] \\
+     e now goes to PlayState (in a basic way)
 - e goes to PlayState
+** TODO TitleState					     :CompileWarning:
+- handle enumeration value 'BACK'
 ** TODO Message
 - Add property (int?) that can be used to switch on if NEXT
 #+BEGIN_SRC C++
@@ -54,6 +77,8 @@ State* stateGenerator( StateType type ) {
 
 }
 #+END_SRC
+** TODO Before adding - update tags files
+- ctags -R *
 
 * 0123a
 ** DONE ERRORS

@@ -26,9 +26,9 @@ void TitleState::draw() {
 	clear();
 
 	// TODO: Draw a fancier ascii title
-	mvprintw( thirdHeight, halfWidth, "-----");
-	mvprintw( thirdHeight + 1, halfWidth, "Rogue");
-	mvprintw( thirdHeight + 2, halfWidth, "-----");
+	mvprintw( thirdHeight, halfWidth, "/=+-------+=\\");
+	mvprintw( thirdHeight + 1, halfWidth - 1, "|==| Rogue |==|");
+	mvprintw( thirdHeight + 2, halfWidth, "\\=+-------+=/");
 
 	mvprintw( thirdHeight + 4, halfWidth,"Press Enter to continue...");
 
@@ -69,6 +69,7 @@ void TitleState::update() {
 		if(next->init()) {
 			message.nextState = next;
 		} else {
+			delete next;
 			message.messageType = Message::QUIT; // failure to init
 		} 
 

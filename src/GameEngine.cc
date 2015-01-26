@@ -159,6 +159,16 @@ void GameEngine::update() {
 		}
 
 		break;
+	case Message::BACK:
+		// Go back to last state (for Help, pause, etc)
+
+		// TODO: Clean up for States?
+		delete states.back();
+
+		states.pop_back();
+
+		break;
+
 	}
 
 }

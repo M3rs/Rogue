@@ -9,7 +9,7 @@ class State {
 
  public:
 
-	enum StateType { NONE, TITLE, MENU, PLAY };
+	enum StateType { NONE, TITLE, MENU, PLAY, HELP };
 
 	virtual ~State();
 	virtual bool init() =0;
