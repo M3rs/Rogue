@@ -26,6 +26,34 @@ enum StateType { NONE, TITLE, MENU, PLAY, HELP }
 #+END_SRC
 - Maybe make a State Generator, returns State* based on on StateType passed,
  inits, etc. Returns nullptr if the init() failes.
+#+BEGIN_SRC C++
+State* stateGenerator( StateType type ) {
+
+  State* nextState = nullptr;
+
+  switch( type ) {
+  case TITLE:
+    nextState = new TitleState();
+    break;
+  case MENU:
+    nextState = new MenuState();
+    break;
+  case PLAY:
+    nextState = new PlayState();
+    break;
+  case HELP:
+    nextState = new HelpState();
+    break;
+  }
+  
+  if( !nextState->init() ) {
+    nextState = nullptr;
+  }
+
+  return nextState;
+
+}
+#+END_SRC
 
 * 0123a
 ** DONE ERRORS
