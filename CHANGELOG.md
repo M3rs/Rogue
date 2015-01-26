@@ -1,5 +1,6 @@
 CHANGELOG
 =========
+Build numbers are based off of the date and start date. (MMDD)
 
 0125a
 -----

@@ -1,9 +1,44 @@
-Things needing done
+Things needing done. Builds usually pushed after TODO items are done.
 
-* ERRORS
+* 0125a
+** TODO HelpState
+*** TODO HelpState.cc
+- Fill out methods
+- Possible create help docs, read from those for HelpState
+** TODO ASCII Art to TitleState.cc
+- For "Rogue" (maybe a sword, or castle, etc?)
+** TODO MenuState
+- e goes to PlayState
+** TODO Message
+- Add property (int?) that can be used to switch on if NEXT
+#+BEGIN_SRC C++
+// Message.h
+int secondary // name pending
+// wherever needed
+switch ( secondary ) {
+case 0: // to PlayState
+case 1: // to HelpState
+#+END_SRC
+- * OR *
+- Add enum of States
+#+BEGIN_SRC C++
+enum StateType { NONE, TITLE, MENU, PLAY, HELP }
+#+END_SRC
+- Maybe make a State Generator, returns State* based on on StateType passed,
+ inits, etc. Returns nullptr if the init() failes.
+
+* 0123a
+** DONE ERRORS
+   CLOSED: [2015-01-25 Sun 18:09]
+   - CLOSING NOTE [2015-01-25 Sun 18:09] \\
+     Resolved
 	run make in build/ -- double check errors with all the enum crap
 
-* TODO Messaging System
+** DONE Messaging System
+   CLOSED: [2015-01-25 Sun 18:05]
+   - CLOSING NOTE [2015-01-25 Sun 18:05] \\
+     Messages contains State*
+     Checks for MessageState::NEXT, checks State* for NULL
   Notes on Messagine:
 
 -Have Message contain State*
@@ -13,10 +48,22 @@ Things needing done
 bool init() { // code }
 #+END_SRC
 
-** TODO State.h
+*** DONE State.h
+    CLOSED: [2015-01-25 Sun 18:08]
+    - CLOSING NOTE [2015-01-25 Sun 18:08] \\
+      Created class Message
+      added Message member to State
 - create struct Message
 - add to class State { Message message }
-** TODO GameEngine.cc
-*** TODO update()
+*** DONE GameEngine.cc
+    CLOSED: [2015-01-25 Sun 18:08]
+    - CLOSING NOTE [2015-01-25 Sun 18:08]
+**** DONE update()
+     CLOSED: [2015-01-25 Sun 18:07]
+     - CLOSING NOTE [2015-01-25 Sun 18:07] \\
+       Added - Possibly make:
+       #+BEGIN_SRC C++
+       Message message = states.back()-message;
+       #+END_SRC
 - check states.back()->message 
 
