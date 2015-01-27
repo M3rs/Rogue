@@ -23,16 +23,29 @@ Things needing done. Builds usually pushed after TODO items are done.
        deletes states.back(),
        states.pop_back() to remove
 - Handle "BACK" message
-** TODO ASCII Art to TitleState.cc
+** DONE ASCII Art to TitleState.cc
+   CLOSED: [2015-01-27 Tue 16:08]
+   - CLOSING NOTE [2015-01-27 Tue 16:08] \\
+     weird /==\ thing, but it's better than nothing.
 - For "Rogue" (maybe a sword, or castle, etc?)
 ** DONE MenuState
    CLOSED: [2015-01-25 Sun 19:18]
    - CLOSING NOTE [2015-01-25 Sun 19:18] \\
      e now goes to PlayState (in a basic way)
 - e goes to PlayState
-** TODO TitleState					     :CompileWarning:
+** DONE TitleState					     :CompileWarning:
+   CLOSED: [2015-01-27 Tue 16:09]
+   - CLOSING NOTE [2015-01-27 Tue 16:09] \\
+     put in default:
 - handle enumeration value 'BACK'
-** TODO Message
+** DONE Message
+   CLOSED: [2015-01-27 Tue 16:09]
+   - CLOSING NOTE [2015-01-27 Tue 16:09] \\
+     Added to State a static State* getState(StateType type),
+     Added to Message a setNextState(State* next) which validates this return,
+     If it is invalid, it sets to quit. 
+     
+     This may not be the best method, but it is MUCH cleaner and less repetative than what I had.
 - Add property (int?) that can be used to switch on if NEXT
 #+BEGIN_SRC C++
 // Message.h

@@ -53,28 +53,13 @@ void TitleState::handleInput(int input) {
 
 void TitleState::update() {
 
-	// not used 
-	// (maybe if there is going to be "animation" on title)
 	switch( message.messageType ) {
-	case Message::NONE:
-		// do nothing
-		break;
-	case Message::QUIT:
-		// do nothing ?
-		break;
-	case Message::NEXT:
-		
-		State* next = new MenuState(); //new PlayState();
-
-		if(next->init()) {
-			message.nextState = next;
-		} else {
-			delete next;
-			message.messageType = Message::QUIT; // failure to init
-		} 
-
-		break;
-	
+		case Message::NEXT:
+			message.setNextState(State::getState( State::MENU ));
+			break;
+		default:
+			// other types unhandled
+			break;
 	}
 		
 

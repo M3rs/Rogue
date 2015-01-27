@@ -20,6 +20,8 @@ class State {
 	StateType stateType;
 	Message message;
 
+	static State* getState(StateType type);
+
 };
 
 #endif // ROGUE_STATE_H

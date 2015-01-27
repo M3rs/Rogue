@@ -4,69 +4,30 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define ARCHITECTURE_ID /;"	d	file:
-ARCHITECTURE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define ARCHITECTURE_ID /;"	d	file:
-CMAKE_BINARY_DIR	build/Makefile	/^CMAKE_BINARY_DIR = \/Users\/andy\/Documents\/Test\/Rogue\/build$/;"	m
-CMAKE_COMMAND	build/Makefile	/^CMAKE_COMMAND = \/usr\/local\/Cellar\/cmake\/3.0.2\/bin\/cmake$/;"	m
-CMAKE_SOURCE_DIR	build/Makefile	/^CMAKE_SOURCE_DIR = \/Users\/andy\/Documents\/Test\/Rogue$/;"	m
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_ID /;"	d	file:
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_ID /;"	d	file:
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_ID /;"	d	file:
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_ID /;"	d	file:
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_ID /;"	d	file:
-COMPILER_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_ID /;"	d	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MAJOR /;"	d	file:
-COMPILER_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MAJOR /;"	d	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_MINOR /;"	d	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_MINOR /;"	d	file:
-COMPILER_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_MINOR /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#   define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_PATCH	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define COMPILER_VERSION_PATCH /;"	d	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
-COMPILER_VERSION_TWEAK	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define COMPILER_VERSION_TWEAK /;"	d	file:
-CPPFLAGS	test/Makefile	/^CPPFLAGS = -I\/usr\/local\/opt\/ncurses\/include$/;"	m
-DEC	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#define DEC(/;"	d	file:
-DEC	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define DEC(/;"	d	file:
+BACK	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT, BACK };$/;"	e	enum:Message::MessageType
 DungeonMaker	include/DungeonMaker.h	/^class DungeonMaker {$/;"	c
-EQUALS	build/Makefile	/^EQUALS = =$/;"	m
-EXEC	test/Makefile	/^EXEC = Test$/;"	m
 Entity	include/Entity.h	/^class Entity {$/;"	c
 GameEngine	include/GameEngine.h	/^class GameEngine {$/;"	c
 GameEngine	src/GameEngine.cc	/^GameEngine::GameEngine() : running(true) {$/;"	f	class:GameEngine
-HEX	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#define HEX(/;"	d	file:
-HEX	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#define HEX(/;"	d	file:
+HELP	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	e	enum:State::StateType
 HelpState	include/HelpState.h	/^class HelpState : public State {$/;"	c
-ID_VOID_MAIN	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define ID_VOID_MAIN$/;"	d	file:
-LDFLAGS	test/Makefile	/^LDFLAGS = -L\/usr\/local\/opt\/ncurses\/lib$/;"	m
-LINKER	test/Makefile	/^LINKER =  -lncurses$/;"	m
 MAX_HEIGHT	include/DungeonMaker.h	/^	int MAX_HEIGHT;$/;"	m	class:DungeonMaker
 MAX_WIDTH	include/DungeonMaker.h	/^	int MAX_WIDTH;$/;"	m	class:DungeonMaker
-MENU	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY };$/;"	e	enum:State::StateType
+MENU	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	e	enum:State::StateType
 MenuState	include/MenuState.h	/^class MenuState : public State {$/;"	c
 Message	include/Message.h	/^class Message {$/;"	c
-Message	src/Message.cc	/^Message::Message() : messageType(MessageType::NONE) {$/;"	f	class:Message
-MessageType	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT };$/;"	g	class:Message
-NEXT	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT };$/;"	e	enum:Message::MessageType
-NONE	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT };$/;"	e	enum:Message::MessageType
-NONE	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY };$/;"	e	enum:State::StateType
-PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^# define PLATFORM_ID /;"	d	file:
-PLATFORM_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^# define PLATFORM_ID /;"	d	file:
-PLAY	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY };$/;"	e	enum:State::StateType
-PRINT_NAME	test/test_characters.cc	/^#define PRINT_NAME(/;"	d	file:
+Message	src/Message.cc	/^Message::Message() : messageType(Message::NONE) {$/;"	f	class:Message
+MessageType	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT, BACK };$/;"	g	class:Message
+NEXT	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT, BACK };$/;"	e	enum:Message::MessageType
+NONE	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT, BACK };$/;"	e	enum:Message::MessageType
+NONE	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	e	enum:State::StateType
+PLAY	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	e	enum:State::StateType
 PlayState	include/PlayState.h	/^class PlayState : public State {$/;"	c
 Player	include/Player.h	/^class Player : public Entity { \/\/ : public Entity$/;"	c
 Point	include/Point.h	/^class Point {$/;"	c
 Point	src/Point.cc	/^Point::Point() : x(0), y(0) {$/;"	f	class:Point
 Point	src/Point.cc	/^Point::Point(int x_, int y_) : x(x_), y(y_) {$/;"	f	class:Point
-QUIT	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT };$/;"	e	enum:Message::MessageType
-RM	build/Makefile	/^RM = \/usr\/local\/Cellar\/cmake\/3.0.2\/bin\/cmake -E remove -f$/;"	m
+QUIT	include/Message.h	/^	enum MessageType { NONE, QUIT, NEXT, BACK };$/;"	e	enum:Message::MessageType
 ROGUE_DUNGEONMAKER_H	include/DungeonMaker.h	/^#define ROGUE_DUNGEONMAKER_H$/;"	d
 ROGUE_ENTITY_H	include/Entity.h	/^#define ROGUE_ENTITY_H$/;"	d
 ROGUE_GAMEENGINE_H	include/GameEngine.h	/^#define ROGUE_GAMEENGINE_H$/;"	d
@@ -78,18 +39,9 @@ ROGUE_PLAYSTATE_H	include/PlayState.h	/^#define ROGUE_PLAYSTATE_H$/;"	d
 ROGUE_POINT_H	include/Point.h	/^#define ROGUE_POINT_H$/;"	d
 ROGUE_STATE_H	include/State.h	/^#define ROGUE_STATE_H$/;"	d
 ROGUE_TITLESTATE_H	include/TitleState.h	/^#define ROGUE_TITLESTATE_H$/;"	d
-SHELL	build/Makefile	/^SHELL = \/bin\/sh$/;"	m
-SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_ID /;"	d	file:
-SIMULATE_ID	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_ID /;"	d	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
-SIMULATE_VERSION_MAJOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MAJOR /;"	d	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
-SIMULATE_VERSION_MINOR	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^#  define SIMULATE_VERSION_MINOR /;"	d	file:
-SOURCE	test/Makefile	/^SOURCE = test_keypresses.cc$/;"	m
-SUFFIXES	build/Makefile	/^SUFFIXES =$/;"	m
 State	include/State.h	/^class State {$/;"	c
-StateType	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY };$/;"	g	class:State
-TITLE	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY };$/;"	e	enum:State::StateType
+StateType	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	g	class:State
+TITLE	include/State.h	/^	enum StateType { NONE, TITLE, MENU, PLAY, HELP };$/;"	e	enum:State::StateType
 TitleState	include/TitleState.h	/^class TitleState : public State {$/;"	c
 character	include/Entity.h	/^	unsigned	character;$/;"	m	class:Entity
 color	include/Entity.h	/^	int		color;$/;"	m	class:Entity
@@ -104,24 +56,13 @@ drawBox	src/main.cc	/^void drawBox(int x, int y, int w, int h) {$/;"	f
 drawHashLine	src/main.cc	/^void drawHashLine(int x1, int y1, int x2, int y2) {$/;"	f
 dungeon	include/DungeonMaker.h	/^	int dungeon[10][10];$/;"	m	class:DungeonMaker
 floor	src/main.cc	/^std::vector<unsigned> floor; \/\/ <chtype> : the "type" defined in ncurses$/;"	v
+getState	src/State.cc	/^State* State::getState(StateType type) {$/;"	f	class:State
 handleInput	src/GameEngine.cc	/^void GameEngine::handleInput() {$/;"	f	class:GameEngine
 handleInput	src/HelpState.cc	/^void HelpState::handleInput(int input) {$/;"	f	class:HelpState
 handleInput	src/MenuState.cc	/^void MenuState::handleInput(int input) {$/;"	f	class:MenuState
 handleInput	src/PlayState.cc	/^void PlayState::handleInput(int input) {$/;"	f	class:PlayState
 handleInput	src/Player.cc	/^void Player::handleInput(int input) {$/;"	f	class:Player
 handleInput	src/TitleState.cc	/^void TitleState::handleInput(int input) {$/;"	f	class:TitleState
-info_arch	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
-info_arch	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_arch = "INFO" ":" "arch[" ARCHITECTURE_ID "]";$/;"	v
-info_compiler	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
-info_compiler	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_compiler = "INFO" ":" "compiler[" COMPILER_ID "]";$/;"	v
-info_platform	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
-info_platform	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_platform = "INFO" ":" "platform[" PLATFORM_ID "]";$/;"	v
-info_simulate	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
-info_simulate	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* info_simulate = "INFO" ":" "simulate[" SIMULATE_ID "]";$/;"	v
-info_simulate_version	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_simulate_version[] = {$/;"	v
-info_simulate_version	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_simulate_version[] = {$/;"	v
-info_version	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const info_version[] = {$/;"	v
-info_version	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const info_version[] = {$/;"	v
 init	src/GameEngine.cc	/^bool GameEngine::init() {$/;"	f	class:GameEngine
 init	src/HelpState.cc	/^bool HelpState::init() {$/;"	f	class:HelpState
 init	src/MenuState.cc	/^bool MenuState::init() {$/;"	f	class:MenuState
@@ -129,13 +70,7 @@ init	src/PlayState.cc	/^bool PlayState::init() {$/;"	f	class:PlayState
 init	src/TitleState.cc	/^bool TitleState::init() {$/;"	f	class:TitleState
 initArray	src/DungeonMaker.cc	/^void DungeonMaker::initArray() {$/;"	f	class:DungeonMaker
 initColors	src/GameEngine.cc	/^bool GameEngine::initColors() {$/;"	f	class:GameEngine
-main	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^int main(int argc, char* argv[])$/;"	f
-main	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f
-main	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f
 main	src/main.cc	/^int main() {$/;"	f
-main	test/test_characters.cc	/^int main() {$/;"	f
-main	test/test_keypresses.cc	/^int main() {$/;"	f
-main	test/test_windows.cc	/^int main() {$/;"	f
 message	include/State.h	/^	Message message;$/;"	m	class:State
 messageType	include/Message.h	/^	MessageType messageType;$/;"	m	class:Message
 nextState	include/Message.h	/^	State* nextState;$/;"	m	class:Message
@@ -144,11 +79,10 @@ operator +	src/Point.cc	/^Point Point::operator+(const Point& p) {$/;"	f	class:P
 operator ==	src/Point.cc	/^bool Point::operator==(const Point& other) const {$/;"	f	class:Point
 options	include/MenuState.h	/^	 std::map<int, std::string> options;$/;"	m	class:MenuState
 position	include/Entity.h	/^	Point		position;$/;"	m	class:Entity
-qnxnto	build/CMakeFiles/3.0.2/CompilerIdC/CMakeCCompilerId.c	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
-qnxnto	build/CMakeFiles/3.0.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^char const* qnxnto = "INFO" ":" "qnxnto";$/;"	v
 reportError	src/GameEngine.cc	/^void GameEngine::reportError(const char * errorMessage) {$/;"	f	class:GameEngine
 run	src/GameEngine.cc	/^void GameEngine::run() {$/;"	f	class:GameEngine
 running	include/GameEngine.h	/^	bool running;$/;"	m	class:GameEngine
+setNextState	src/Message.cc	/^void Message::setNextState(State* next) {$/;"	f	class:Message
 stateType	include/State.h	/^	StateType stateType;$/;"	m	class:State
 states	include/GameEngine.h	/^	std::vector<State*> states;$/;"	m	class:GameEngine
 update	src/Entity.cc	/^void Entity::update() {$/;"	f	class:Entity

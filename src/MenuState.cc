@@ -44,11 +44,11 @@ void MenuState::handleInput(int input) {
 		case 'e':
 			// go to play state
 			message.messageType = Message::NEXT;
-			stateType = StateType::PLAY;
+			stateType = State::PLAY;
 			break;
 		case 'h':
 			message.messageType = Message::NEXT;
-			stateType = StateType::HELP;
+			stateType = State::HELP;
 			break;
 		case 'q':
 			// quit
@@ -63,33 +63,14 @@ void MenuState::handleInput(int input) {
 void MenuState::update() {
 
 	switch( message.messageType ) {
-	case Message::NONE:
-		// do nothing
-		break;
 	case Message::QUIT:
-		// do nothing ?
+		// do nothing ? or do I need to handle this?
 		break;
-	case Message::NEXT:
-		// set up next state depending on message?
-		State* next = NULL;
-		switch ( stateType ) {
-		case StateType::HELP:
-			next = new HelpState();
-			break;
-		case StateType::PLAY:
-			next = new PlayState();
-			break;
-		}
-
-		if(next->init()) {
-			message.nextState = next;
-		} else {
-			delete next;
-			message.messageType = Message::QUIT;
-		}
-
+	case Message::NEXT: 
+		message.setNextState( State::getState(stateType) );
 		break;
-
+	default:
+		break;
 	}
 
 }

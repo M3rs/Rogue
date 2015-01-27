@@ -17,6 +17,8 @@ class Message {
 
 	State* nextState;
 
+	void setNextState(State* next);
+
 };
 
 #endif // ROGUE_MESSAGE_H
